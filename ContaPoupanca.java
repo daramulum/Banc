@@ -12,7 +12,7 @@ public class ContaPoupanca extends ContaBancaria {
     // Método
     public double calcularRendimento() {
         // Calcula o rendimento com base no saldo e na taxa
-        double rendimento = this.getSaldo() * this.taxaRendimento / 100;
+        double rendimento = this.ExibirSaldo() * this.taxaRendimento / 100;
         // Retorna o rendimento
         return rendimento;
     }
